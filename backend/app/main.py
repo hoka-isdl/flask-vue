@@ -17,7 +17,7 @@ CORS(app)
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def index(path):
-    print('index.html')
+    print('index_ver3.html')
     return render_template('index.html')
 
 
